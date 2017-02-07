@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>CA3E059F-D137-45A3-AFB2-985A0B7AE9A3</ifid>
+            <format>zcode</format>
+        </identification>
+        <bibliographic>
+            <title>Escape the Hospital</title>
+            <author>Marty Signol</author>
+            <headline>Escape the Hospital</headline>
+            <genre>Zombie</genre>
+            <firstpublished>2017</firstpublished>
+            <description>You just woke up in an Hospital, everbody seems to be gone. But not everything.</description>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2017-02-07</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2017-02-07</originated>
+        </colophon>
+        <zcode>
+            <serial>170207</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6M62</compiler>
+        </zcode>
+    </story>
+</ifindex>

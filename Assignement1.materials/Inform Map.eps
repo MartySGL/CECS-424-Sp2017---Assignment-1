@@ -1,0 +1,138 @@
+%!PS-Adobe EPSF-3.0
+%%BoundingBox: 0 0 312 310
+%%IncludeFont: Helvetica
+/Helvetica findfont 24 scalefont setfont
+newpath % Ruled outline outer box of map
+12 12 moveto % bottom left corner
+300 12 lineto % bottom side
+300 298 lineto % right side
+12 298 lineto % top side
+closepath
+stroke
+newpath % Ruled horizontal line
+12 262 moveto % LHS
+300 262 lineto % RHS
+closepath
+stroke
+0 0 0 setrgbcolor % From HTML colour 000000
+/Helvetica findfont 24 scalefont setfont
+newpath (Map)
+24 % = X
+280 24 2 div sub % = Y centre-offset
+moveto show
+0 0 0 setrgbcolor % From HTML colour 000000
+/Helvetica findfont 16 scalefont setfont
+newpath (Map)
+24 % = X
+240 % = Y
+moveto show
+currentlinewidth % Push old line width onto stack
+15 setlinewidth
+0 0 0 setrgbcolor % From HTML colour 000000
+48 126 moveto % start of Bezier curve
+120 126 48 126 120 126 curveto % control points 1, 2 and end
+stroke
+setlinewidth % Pull old line width from stack
+currentlinewidth % Push old line width onto stack
+15 setlinewidth
+0 0 0 setrgbcolor % From HTML colour 000000
+120 126 moveto % start of Bezier curve
+120 198 120 126 120 198 curveto % control points 1, 2 and end
+stroke
+0 0 0 setrgbcolor % From HTML colour 000000
+120 126 moveto % start of Bezier curve
+120 54 120 126 120 54 curveto % control points 1, 2 and end
+stroke
+0 0 0 setrgbcolor % From HTML colour 000000
+setlinewidth % Pull old line width from stack
+currentlinewidth % Push old line width onto stack
+15 setlinewidth
+0 0 0 setrgbcolor % From HTML colour 000000
+0 0 0 setrgbcolor % From HTML colour 000000
+120 198 moveto % start of Bezier curve
+192 198 120 198 192 198 curveto % control points 1, 2 and end
+stroke
+setlinewidth % Pull old line width from stack
+currentlinewidth % Push old line width onto stack
+15 setlinewidth
+0 0 0 setrgbcolor % From HTML colour 000000
+setlinewidth % Pull old line width from stack
+currentlinewidth % Push old line width onto stack
+15 setlinewidth
+0 0 0 setrgbcolor % From HTML colour 000000
+setlinewidth % Pull old line width from stack
+newpath % Room interior
+1 1 1 setrgbcolor % From HTML colour FFFFFF
+44 122 moveto % bottom left corner
+52 122 lineto % bottom side
+52 130 lineto % right side
+44 130 lineto % top side
+closepath
+fill
+
+0 0 0 setrgbcolor % From HTML colour 000000
+/Helvetica findfont 60 scalefont setfont
+newpath (Hospital Room)
+dup stringwidth add 2 div 48 exch sub % = X centre-offset
+126 60 2 div sub % = Y centre-offset
+moveto show
+newpath % Room interior
+1 1 1 setrgbcolor % From HTML colour FFFFFF
+116 122 moveto % bottom left corner
+124 122 lineto % bottom side
+124 130 lineto % right side
+116 130 lineto % top side
+closepath
+fill
+
+0 0 0 setrgbcolor % From HTML colour 000000
+/Helvetica findfont 60 scalefont setfont
+newpath (Hallway)
+dup stringwidth add 2 div 120 exch sub % = X centre-offset
+126 60 2 div sub % = Y centre-offset
+moveto show
+newpath % Room interior
+1 1 1 setrgbcolor % From HTML colour FFFFFF
+116 194 moveto % bottom left corner
+124 194 lineto % bottom side
+124 202 lineto % right side
+116 202 lineto % top side
+closepath
+fill
+
+0 0 0 setrgbcolor % From HTML colour 000000
+/Helvetica findfont 60 scalefont setfont
+newpath (Otsd th Hsptl)
+dup stringwidth add 2 div 120 exch sub % = X centre-offset
+198 60 2 div sub % = Y centre-offset
+moveto show
+newpath % Room interior
+1 1 1 setrgbcolor % From HTML colour FFFFFF
+116 50 moveto % bottom left corner
+124 50 lineto % bottom side
+124 58 lineto % right side
+116 58 lineto % top side
+closepath
+fill
+
+0 0 0 setrgbcolor % From HTML colour 000000
+/Helvetica findfont 60 scalefont setfont
+newpath (Cafeteria)
+dup stringwidth add 2 div 120 exch sub % = X centre-offset
+54 60 2 div sub % = Y centre-offset
+moveto show
+newpath % Room interior
+1 1 1 setrgbcolor % From HTML colour FFFFFF
+188 194 moveto % bottom left corner
+196 194 lineto % bottom side
+196 202 lineto % right side
+188 202 lineto % top side
+closepath
+fill
+
+0 0 0 setrgbcolor % From HTML colour 000000
+/Helvetica findfont 60 scalefont setfont
+newpath (Road to Atlnt)
+dup stringwidth add 2 div 192 exch sub % = X centre-offset
+198 60 2 div sub % = Y centre-offset
+moveto show

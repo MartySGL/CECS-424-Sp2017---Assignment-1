@@ -15,7 +15,6 @@ A road is a kind of room. Definition: a room is offroad if it is not a road.
 Instead of going by a vehicle (called the auto) to somewhere offroad: 
 	say "You can't drive [the auto] off-road."
 	
-Instead of g
 Hospital Room is a room. "Nobody is in here. There is a blue door at the east".
 The bed is in the Hospital Room.
 The bag is in the Hospital Room. The bag is a closed openable container.
